@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2024 02:31:19 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog_branch</title>
+      <link>http://localhost:1313/post/blog_branch/</link>
+      <pubDate>Sun, 16 Jun 2024 02:26:22 +0800</pubDate>
+      <guid>http://localhost:1313/post/blog_branch/</guid>
+      <description>GitHub Pages + Hugo 搭建个人博客&#xA;1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库&#xA;erictong.github.io https://github.com/eirctong/eirctong.github.io&#xA;GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件；用于一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所以是 GitHub + Pages&#xA;blog https://github.com/eirctong/blog&#xA;博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等&#xA;2. deployment </description>
+    </item>
+    <item>
+      <title>Hahaha</title>
+      <link>http://localhost:1313/post/hahaha/</link>
+      <pubDate>Sun, 16 Jun 2024 02:23:24 +0800</pubDate>
+      <guid>http://localhost:1313/post/hahaha/</guid>
+      <description>hihihiio</description>
+    </item>
+    <item>
+      <title>SSL签发</title>
+      <link>http://localhost:1313/post/ssl-certifie/</link>
+      <pubDate>Sat, 15 Jun 2024 23:24:07 +0800</pubDate>
+      <guid>http://localhost:1313/post/ssl-certifie/</guid>
+      <description>参考资料 http://www.gmloc.me/50.html https://u.sb/acme-sh-ssl/&#xA;acme.sh wget -O - https://get.acme.sh | sh -s erictong666@gmail.com 生成API KEY https://www.namesilo.com/account/api-manager ![image-20230625200750737](/Users/bytedance/Library/Application Support/typora-user-images/image-20230625200750737.png) export Namesilo_Key=&amp;ldquo;申请的key&amp;rdquo; 测试此key是否可用 curl &amp;lsquo;https://www.namesilo.com/api/listDomains?version=1&amp;amp;type=xml&amp;amp;key=xxx&#39; 切换 acme.sh &amp;ndash;set-default-ca &amp;ndash;server letsencrypt 映射 生成key pem ![image-20230625200720865](/Users/bytedance/Library/Application Support/typora-user-images/image-20230625200720865.png) acme.sh &amp;ndash;issue &amp;ndash;dns dns_namesilo &amp;ndash;dnssleep 900 -d erichen.top -d *.erichen.top &amp;ndash;debug 绑定到nginx的相关folder acme.sh &amp;ndash;install-cert -d erichen.top &amp;ndash;key-file /home/nginxWebUI/cert/erichen.top/erichen.top.key &amp;ndash;fullchain-file /home/nginxWebUI/cert/erichen.top/erichen.top.cer 最后进行映射 反向代理 docker-compose 内容 指定本地loopback和映射端口 docker run -d -p 127.0.0.1:31000:3000/tcp -e OPENAI_API_KEY=&amp;ldquo;xx&amp;rdquo; -e CODE=&amp;ldquo;xx&amp;rdquo; yidadaa/chatgpt-next-web</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/post/test/</link>
+      <pubDate>Sat, 15 Jun 2024 23:24:07 +0800</pubDate>
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>hhhhhh eric hello world&#xA;test https://u.sb/acme-sh-ssl/&#xA;acme.sh wget -O - https://get.acme.sh | sh -s erictong666@gmail.com 生成API KEY https://www.namesilo.com/account/api-manager ![image-20230625200750737](/Users/bytedance/Library/Application Support/typora-user-images/image-20230625200750737.png) export Namesilo_Key=&amp;ldquo;申请的key&amp;rdquo; 测试此key是否可用 curl &amp;lsquo;https://www.namesilo.com/api/listDomains?version=1&amp;amp;type=xml&amp;amp;key=xxx&#39; 切换 acme.sh &amp;ndash;set-default-ca &amp;ndash;server letsencrypt 映射 生成key pem ![image-20230625200720865](/Users/bytedance/Library/Application Support/typora-user-images/image-20230625200720865.png) acme.sh &amp;ndash;issue &amp;ndash;dns dns_namesilo &amp;ndash;dnssleep 900 -d erichen.top -d *.erichen. </description>
+    </item>
+    <item>
+      <title>Network_tech</title>
+      <link>http://localhost:1313/post/network_tech/</link>
+      <pubDate>Sat, 15 Jun 2024 22:51:52 +0800</pubDate>
+      <guid>http://localhost:1313/post/network_tech/</guid>
+      <description>this is my first hugo blog</description>
+    </item>
+  </channel>
+</rss>
