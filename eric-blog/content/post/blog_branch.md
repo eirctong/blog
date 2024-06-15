@@ -41,6 +41,18 @@ cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_bl
 hugo server # try http://localhost:1313/
 hugo new post/xxx.md
 
+
+# push所有内容到博客源仓库,用于远程备份
+# 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的
+cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog
+git stash -u
+git pull --rebase origin main
+git stash pop
+git add .
+git commit -m "feat(init deploy): test publish"
+git push
+
+
 # 向GitHub Pages 推送, 静态网页资源将会Automatic Action
 cd blog/eric-blog/public
 git stash -u
@@ -50,14 +62,4 @@ git add .
 git commit -m "feat(update blog): push blog"
 git push
 # try https://eirctong.github.io/
-
-# 最后push所有内容到博客源仓库,用于远程备份
-# 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的
-cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog
-git stash -u
-git pull --rebase origin main
-git stash pop
-git add .
-git commit -m "feat(init deploy): test publish"
-git push
 ```
