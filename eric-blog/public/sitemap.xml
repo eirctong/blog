@@ -2,23 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eirctong.github.io/</loc>
-    <lastmod>2024-06-16T02:16:45+08:00</lastmod>
+    <loc>http://localhost:1313/post/blog_branch/</loc>
+    <lastmod>2024-06-16T03:19:30+08:00</lastmod>
   </url><url>
-    <loc>https://eirctong.github.io/post/</loc>
-    <lastmod>2024-06-16T02:16:45+08:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-16T03:19:30+08:00</lastmod>
   </url><url>
-    <loc>https://eirctong.github.io/post/ssl-certifie/</loc>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-06-16T03:19:30+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/hahaha/</loc>
+    <lastmod>2024-06-16T02:24:04+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/ssl-certifie/</loc>
     <lastmod>2024-06-16T02:14:15+08:00</lastmod>
   </url><url>
-    <loc>https://eirctong.github.io/post/test/</loc>
+    <loc>http://localhost:1313/post/test/</loc>
     <lastmod>2024-06-16T02:16:45+08:00</lastmod>
   </url><url>
-    <loc>https://eirctong.github.io/post/network_tech/</loc>
+    <loc>http://localhost:1313/post/network_tech/</loc>
     <lastmod>2024-06-15T22:53:05+08:00</lastmod>
   </url><url>
-    <loc>https://eirctong.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://eirctong.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

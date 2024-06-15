@@ -503,12 +503,11 @@
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
                   GitHub Pages + Hugo 搭建个人博客
-1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库
-erictong.github.io https://github.com/eirctong/eirctong.github.io
+1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库 ~ is /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/ erictong.github.io https://github.com/eirctong/eirctong.github.io
 GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件；用于一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所以是 GitHub + Pages
-blog https://github.com/eirctong/blog
-博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等
-2. deployment 
+init directory is ~/blog/eric_blog/public blog https://github.com/eirctong/blog
+init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等
+2. deployment # 进入blog的路径 启动hugo server 在本地检查markdown转换成html有无问题 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog/eric-blog hugo server # try http://localhost:1313/ hugo new post/xxx.md # 向GitHub Pages 推送, 静态网页资源将会Automatic Action cd blog/eric-blog/public git stash -u git pull --rebase origin main git stash pop git add .
                 </div>
 
                 <p class="mb-0 f6 text-gray">
