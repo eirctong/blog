@@ -7,7 +7,7 @@ pygmentsUseClasses = true
 
 [params]
   author = "Eric"
-  description = "Do whatever you want"
+  description = "Do whatever you want."
   github = "erictong"
   facebook = "erictong"
   twitter = "erictong"
