@@ -54,7 +54,7 @@ git push
 
 
 # 向GitHub Pages 推送, 静态网页资源将会Automatic Action
-hugo # 通过 hugo 命令生成静态网页文件
+hugo # 通过 hugo 命令生成静态网页文件,会修改toml中的baseurl所关联的html中的item
 cd blog/eric-blog/public
 git stash -u
 git pull --rebase origin main

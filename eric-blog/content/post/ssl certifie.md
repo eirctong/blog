@@ -2,6 +2,10 @@
 title = 'SSL签发'
 date = 2024-06-15T23:24:07+08:00
 draft = false
+summary = "ssl证书签发指南"
+tags = ["ssl", "certificate"]
+lastmod = true
+pin = true
 +++
 # 参考资料
 http://www.gmloc.me/50.html
