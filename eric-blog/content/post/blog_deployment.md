@@ -1,5 +1,5 @@
 +++
-title = 'Blog_branch'
+title = 'Blog_Deployment'
 date = 2024-06-16T02:26:22+08:00
 draft = false
 +++
@@ -54,6 +54,7 @@ git push
 
 
 # 向GitHub Pages 推送, 静态网页资源将会Automatic Action
+hugo # 通过 hugo 命令生成静态网页文件
 cd blog/eric-blog/public
 git stash -u
 git pull --rebase origin main

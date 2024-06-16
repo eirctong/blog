@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.127.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.127.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script type="application/javascript" src='https://eirctong.github.io/js/theme-mode.js'></script>
@@ -144,7 +144,7 @@
                 </path>
               </svg>
               Posts
-              <span class="Counter">5</span>
+              <span class="Counter">7</span>
             </a>
           </nav>
           <div class="profile-color-modes js-promo-color-modes-banner-profile isInitialToggle">
@@ -459,7 +459,7 @@
         </path>
       </svg>
       Posts
-      <span class="Counter ">5</span>
+      <span class="Counter ">7</span>
     </a>
   </nav>
 </div>
@@ -495,8 +495,72 @@
                       d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z">
                     </path>
                   </svg>
-                  <a class="text-bold flex-auto min-width-0" href="https://eirctong.github.io/post/blog_branch/">
-                    <span class="repo" title="Blog_branch">Blog_branch</span>
+                  <a class="text-bold flex-auto min-width-0" href="https://eirctong.github.io/post/hahlll/">
+                    <span class="repo" title="Hahlll">Hahlll</span>
+                  </a>
+                </div>
+
+
+                <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
+                  test
+                </div>
+
+                <p class="mb-0 f6 text-gray">
+                  
+                </p>
+              </div>
+            </div>
+          </li>
+          
+          <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+            <div
+              class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source reorderable sortable-button-item">
+              <div class="pinned-item-list-item-content">
+                <div class="d-flex width-full flex-items-center position-relative">
+                  <svg class="octicon octicon-repo mr-2 text-gray flex-shrink-0" viewBox="0 0 16 16" version="1.1"
+                    width="16" height="16">
+                    <path fill-rule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z">
+                    </path>
+                  </svg>
+                  <a class="text-bold flex-auto min-width-0" href="https://eirctong.github.io/post/gitskill/">
+                    <span class="repo" title="Gitskill">Gitskill</span>
+                  </a>
+                </div>
+
+
+                <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
+                  Git 变更集 ”git add”命令就是用来操作变更集的，当存在多个变更时，我们可以利用”git add”命令，选择将哪些变更加入到本次提交的变更集合中，也就是说，并不是每次提交都要将所有的变更都提交，而是可以有选择性的，只有被加入到变更集中的变更才会被提交， 只不过，上例中的”git add -A”命令并没有进行选择，而是将所有变更作为了一个变更集合，当”git add”命令创建出这个变更集以后，”git commit”命令将这个变更集合提交到了git仓库中。 核心 git只会对修改的部分创建副本，而不会对整个目录创建副本 git处理文件的逻辑：git会将我们的文件和目录转化成一种叫做”git对象”的东西，然后再对这些”git对象”进行管理，从而实现版本管理的目的，这些git对象存放在git的对象库中 我们眼中的文件会被git转化成”块”(blob) 我们眼中的目录会被git转化成”树”(tree) 我们眼中的状态会被git转化成”提交”(commit) blob、tree、commit都是git对象，是三种不同类型的git对象
+一个commit就是一个我们所创建的提交，它指向了一个tree，这个tree保存了某一时刻项目根目录中的直接文件信息和直接目录信息，也就是说， tree会指向直接文件的blob对象，并且指向直接子目录的tree对象，子目录的tree对象又指向了子目录中直接文件的blob，以及子目录的直接子目录的tree，依此类推。 修改f2的内容，创建一个直接目录，第二次提交，git对象的指向如下所示
+这样做的优点：
+手动创建副本会造成磁盘空间的浪费，即两个副本的差异只有1k时，也需要牺牲整个文件的大小；而git的管理就是只修改改动的部分，如上图，只有file2发生了变化，则创建新的blob对象，而原先的file1对应的blob对象的指向是没有改变的 通过引用的方式指向没有改变的file，也可以理解为复用（multiplex） 总结： 一个commit就代表项目的一个状态（相当于手动创建的副本），一个commit背后是一堆git对象，git将这些git对象巧妙的组织在了一起，从而实现了版本管理的目的。 Git区域 ”.git”目录就是所谓的”版本库” 除了”.git”目录以外的其他文件和目录组成了”工作区” 版本库的提交 $ git add -A $ git commit -m &ldquo;some comment&rdquo;
+回退 git reflog 查询每次提交时的commit_id git reset &ndash;hard commit_id 进行回退 git reflog 检查是否回退成功
+HEAD HEAD指针 ——–&gt; 分支指针 ——–&gt; 最新提交 通常情况下，HEAD指针总是指向了当前分支的最新提交（通过分支指针间接的指向）
+git log &ndash;oneline &ndash;all &ndash;graph 用于检查所有的分支的指针，以及当前head所指向的commit
+git checkout 37e7e8d 用于根据上一条命令得出的hash值来检出到之前的status
+6BFPLX2-XVK+Admin@6BFPLX2-XVK MINGW64 /d/workspace/git/git_test ((9c3083d&hellip;)) $ git log &ndash;oneline &ndash;all &ndash;graph
+                </div>
+
+                <p class="mb-0 f6 text-gray">
+                  
+                </p>
+              </div>
+            </div>
+          </li>
+          
+          <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+            <div
+              class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source reorderable sortable-button-item">
+              <div class="pinned-item-list-item-content">
+                <div class="d-flex width-full flex-items-center position-relative">
+                  <svg class="octicon octicon-repo mr-2 text-gray flex-shrink-0" viewBox="0 0 16 16" version="1.1"
+                    width="16" height="16">
+                    <path fill-rule="evenodd"
+                      d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z">
+                    </path>
+                  </svg>
+                  <a class="text-bold flex-auto min-width-0" href="https://eirctong.github.io/post/blog_deployment/">
+                    <span class="repo" title="Blog_Deployment">Blog_Deployment</span>
                   </a>
                 </div>
 
@@ -507,7 +571,7 @@
 GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件；用于一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所以是 GitHub + Pages
 init directory is ~/blog/eric_blog/public blog https://github.com/eirctong/blog
 init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等
-2. deployment # 进入blog的路径 启动hugo server 在本地检查markdown转换成html有无问题 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog/eric-blog hugo server # try https://eirctong.github.io/ hugo new post/xxx.md # push所有内容到博客源仓库,用于远程备份 # 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog git stash -u git pull --rebase origin main git stash pop git add .
+2. deployment # 进入blog的路径 启动hugo server 在本地检查markdown转换成html有无问题 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog/eric-blog hugo server # try http://localhost:1313/ hugo new post/xxx.md # push所有内容到博客源仓库,用于远程备份 # 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog git stash -u git pull --rebase origin main git stash pop git add .
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -604,34 +668,6 @@ acme.sh wget -O - https://get.acme.sh | sh -s erictong666@gmail.com 生成API KE
             </div>
           </li>
           
-          <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
-            <div
-              class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source reorderable sortable-button-item">
-              <div class="pinned-item-list-item-content">
-                <div class="d-flex width-full flex-items-center position-relative">
-                  <svg class="octicon octicon-repo mr-2 text-gray flex-shrink-0" viewBox="0 0 16 16" version="1.1"
-                    width="16" height="16">
-                    <path fill-rule="evenodd"
-                      d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z">
-                    </path>
-                  </svg>
-                  <a class="text-bold flex-auto min-width-0" href="https://eirctong.github.io/post/network_tech/">
-                    <span class="repo" title="Network_tech">Network_tech</span>
-                  </a>
-                </div>
-
-
-                <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  this is my first hugo blog
-                </div>
-
-                <p class="mb-0 f6 text-gray">
-                  
-                </p>
-              </div>
-            </div>
-          </li>
-          
         </ol>
       </div>
     </div>
@@ -639,8 +675,20 @@ acme.sh wget -O - https://get.acme.sh | sh -s erictong666@gmail.com 生成API KE
     
     <div class="mt-4 position-relative" id="contributions" data='[
 {
-  "title": "Blog_branch",
-  "link": "https://eirctong.github.io/post/blog_branch/",
+  "title": "Hahlll",
+  "link": "https://eirctong.github.io/post/hahlll/",
+  "publishDate": "2024-06-16%2013:19:41"
+},
+
+{
+  "title": "Gitskill",
+  "link": "https://eirctong.github.io/post/gitskill/",
+  "publishDate": "2024-06-16%2003:44:32"
+},
+
+{
+  "title": "Blog_Deployment",
+  "link": "https://eirctong.github.io/post/blog_deployment/",
   "publishDate": "2024-06-16%2002:26:22"
 },
 

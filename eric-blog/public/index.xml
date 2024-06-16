@@ -6,14 +6,35 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2024 03:27:38 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2024 13:34:54 +0800</lastBuildDate>
     <atom:link href="https://eirctong.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog_branch</title>
-      <link>https://eirctong.github.io/post/blog_branch/</link>
+      <title>Hahlll</title>
+      <link>https://eirctong.github.io/post/hahlll/</link>
+      <pubDate>Sun, 16 Jun 2024 13:19:41 +0800</pubDate>
+      <guid>https://eirctong.github.io/post/hahlll/</guid>
+      <description>test</description>
+    </item>
+    <item>
+      <title>Hah</title>
+      <link>https://eirctong.github.io/test/hah/</link>
+      <pubDate>Sun, 16 Jun 2024 13:18:40 +0800</pubDate>
+      <guid>https://eirctong.github.io/test/hah/</guid>
+      <description>hihi</description>
+    </item>
+    <item>
+      <title>Gitskill</title>
+      <link>https://eirctong.github.io/post/gitskill/</link>
+      <pubDate>Sun, 16 Jun 2024 03:44:32 +0800</pubDate>
+      <guid>https://eirctong.github.io/post/gitskill/</guid>
+      <description>Git 变更集 ”git add”命令就是用来操作变更集的，当存在多个变更时，我们可以利用”git add”命令，选择将哪些变更加入到本次提交的变更集合中，也就是说，并不是每次提交都要将所有的变更都提交，而是可以有选择性的，只有被加入到变更集中的变更才会被提交， 只不过，上例中的”git add -A”命令并没有进行选择，而是将所有变更作为了一个变更集合，当”git add”命令创建出这个变更集以后，”git commit”命令将这个变更集合提交到了git仓库中。 核心 git只会对修改的部分创建副本，而不会对整个目录创建副本 git处理文件的逻辑：git会将我们的文件和目录转化成一种叫做”git对象”的东西，然后再对这些”git对象”进行管理，从而实现版本管理的目的，这些git对象存放在git的对象库中 我们眼中的文件会被git转化成”块”(blob) 我们眼中的目录会被git转化成”树”(tree) 我们眼中的状态会被git转化成”提交”(commit) blob、tree、commit都是git对象，是三种不同类型的git对象&#xA;一个commit就是一个我们所创建的提交，它指向了一个tree，这个tree保存了某一时刻项目根目录中的直接文件信息和直接目录信息，也就是说， tree会指向直接文件的blob对象，并且指向直接子目录的tree对象，子目录的tree对象又指向了子目录中直接文件的blob，以及子目录的直接子目录的tree，依此类推。 修改f2的内容，创建一个直接目录，第二次提交，git对象的指向如下所示&#xA;这样做的优点：&#xA;手动创建副本会造成磁盘空间的浪费，即两个副本的差异只有1k时，也需要牺牲整个文件的大小；而git的管理就是只修改改动的部分，如上图，只有file2发生了变化，则创建新的blob对象，而原先的file1对应的blob对象的指向是没有改变的 通过引用的方式指向没有改变的file，也可以理解为复用（multiplex） 总结： 一个commit就代表项目的一个状态（相当于手动创建的副本），一个commit背后是一堆git对象，git将这些git对象巧妙的组织在了一起，从而实现了版本管理的目的。 Git区域 ”.git”目录就是所谓的”版本库” 除了”.git”目录以外的其他文件和目录组成了”工作区” 版本库的提交 $ git add -A $ git commit -m &amp;ldquo;some comment&amp;rdquo;&#xA;回退 git reflog 查询每次提交时的commit_id git reset &amp;ndash;hard commit_id 进行回退 git reflog 检查是否回退成功&#xA;HEAD HEAD指针 ——–&amp;gt; 分支指针 ——–&amp;gt; 最新提交 通常情况下，HEAD指针总是指向了当前分支的最新提交（通过分支指针间接的指向）&#xA;git log &amp;ndash;oneline &amp;ndash;all &amp;ndash;graph 用于检查所有的分支的指针，以及当前head所指向的commit&#xA;git checkout 37e7e8d 用于根据上一条命令得出的hash值来检出到之前的status&#xA;6BFPLX2-XVK+Admin@6BFPLX2-XVK MINGW64 /d/workspace/git/git_test ((9c3083d&amp;hellip;)) $ git log &amp;ndash;oneline &amp;ndash;all &amp;ndash;graph</description>
+    </item>
+    <item>
+      <title>Blog_Deployment</title>
+      <link>https://eirctong.github.io/post/blog_deployment/</link>
       <pubDate>Sun, 16 Jun 2024 02:26:22 +0800</pubDate>
-      <guid>https://eirctong.github.io/post/blog_branch/</guid>
-      <description>GitHub Pages + Hugo 搭建个人博客&#xA;1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库 ~ is /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/ erictong.github.io https://github.com/eirctong/eirctong.github.io&#xA;GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件；用于一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所以是 GitHub + Pages&#xA;init directory is ~/blog/eric_blog/public blog https://github.com/eirctong/blog&#xA;init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等&#xA;2. deployment # 进入blog的路径 启动hugo server 在本地检查markdown转换成html有无问题 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog/eric-blog hugo server # try https://eirctong.github.io/ hugo new post/xxx.md # push所有内容到博客源仓库,用于远程备份 # 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog git stash -u git pull --rebase origin main git stash pop git add .</description>
+      <guid>https://eirctong.github.io/post/blog_deployment/</guid>
+      <description>GitHub Pages + Hugo 搭建个人博客&#xA;1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库 ~ is /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/ erictong.github.io https://github.com/eirctong/eirctong.github.io&#xA;GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件；用于一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所以是 GitHub + Pages&#xA;init directory is ~/blog/eric_blog/public blog https://github.com/eirctong/blog&#xA;init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等&#xA;2. deployment # 进入blog的路径 启动hugo server 在本地检查markdown转换成html有无问题 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog/eric-blog hugo server # try http://localhost:1313/ hugo new post/xxx.md # push所有内容到博客源仓库,用于远程备份 # 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog git stash -u git pull --rebase origin main git stash pop git add .</description>
     </item>
     <item>
       <title>Hahaha</title>

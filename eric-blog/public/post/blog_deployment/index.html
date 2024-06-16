@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://eirctong.github.io/css/light.css' />
     <link rel="stylesheet" href='https://eirctong.github.io/css/dark.css' />
     <link rel="stylesheet" href='https://eirctong.github.io/css/syntax.css' />
-    <title>Blog_branch - My New Hugo Site</title>
+    <title>Blog_Deployment - My New Hugo Site</title>
     
     <link rel="icon" type="image/x-icon" href='/images/github-mark.png'>
     
@@ -27,11 +27,11 @@ init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博
 <meta name="keywords"
   content='blog, google analytics' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://eirctong.github.io/post/blog_branch/" />
+<link rel="canonical" href="https://eirctong.github.io/post/blog_deployment/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Blog_branch - My New Hugo Site" />
+<meta name="twitter:title" content="Blog_Deployment - My New Hugo Site" />
 <meta name="twitter:description"
   content="GitHub Pages &#43; Hugo 搭建个人博客
 1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库 ~ is /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/ erictong.github.io https://github.com/eirctong/eirctong.github.io
@@ -46,7 +46,7 @@ init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Blog_branch - My New Hugo Site">
+<meta property="og:title" content="Blog_Deployment - My New Hugo Site">
 <meta property="og:description"
   content="GitHub Pages &#43; Hugo 搭建个人博客
 1. 仓库内容 1.1 文件git init详细说明 目前存在的仓库 ~ is /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/ erictong.github.io https://github.com/eirctong/eirctong.github.io
@@ -54,8 +54,8 @@ GitHub Pages 仓库：储存由 Hugo 从Markdown 文件生成的 HTML 文件；�
 init directory is ~/blog/eric_blog/public blog https://github.com/eirctong/blog
 init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等
 2. deployment # 进入blog的路径 启动hugo server 在本地检查markdown转换成html有无问题 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog/eric-blog hugo server # try http://localhost:1313/ hugo new post/xxx.md # push所有内容到博客源仓库,用于远程备份 # 如果没有把博客源文件推送到远端仓库备份，假设你丢失了本地文件（比如电脑坏了），那只根据public文件夹中的内容是很难复原你的所有博客内容的 cd /Users/bytedance/Library/Mobile Documents/com~apple~CloudDocs/Desktop/eric_blog/blog git stash -u git pull --rebase origin main git stash pop git add ." />
-<meta property="og:url" content="https://eirctong.github.io/post/blog_branch/" />
-<meta property="og:site_name" content="Blog_branch" />
+<meta property="og:url" content="https://eirctong.github.io/post/blog_deployment/" />
+<meta property="og:site_name" content="Blog_Deployment" />
 <meta property="og:image"
   content="https://eirctong.github.io/">
 <meta property="og:image:width" content="2048">
@@ -147,7 +147,7 @@ init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="https://eirctong.github.io/post/blog_branch/">Blog_branch</a>
+                    <a href="https://eirctong.github.io/post/blog_deployment/">Blog_Deployment</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
@@ -157,9 +157,9 @@ init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Sun, 16 Jun 2024 03:35:46 &#43;0800"
+                  Modified <relative-time datetime="Sun, 16 Jun 2024 13:34:54 &#43;0800"
                     class="no-wrap">
-                    Sun, 16 Jun 2024 03:35:46 &#43;0800</relative-time>
+                    Sun, 16 Jun 2024 13:34:54 &#43;0800</relative-time>
                   
                 </div>
               </div>
@@ -189,7 +189,7 @@ init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博
                         </div>
                       </div>
                     </details-menu>
-                      391 Words
+                      406 Words
                     
 
                   </div>
@@ -233,6 +233,7 @@ init directory is ~/blog 博客源仓库：储存所有 Markdown 源文件（博
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 向GitHub Pages 推送, 静态网页资源将会Automatic Action</span>
+</span></span><span class="line"><span class="cl"><span class="n">hugo</span> <span class="c1"># 通过 hugo 命令生成静态网页文件</span>
 </span></span><span class="line"><span class="cl"><span class="n">cd</span> <span class="n">blog</span><span class="o">/</span><span class="n">eric</span><span class="o">-</span><span class="n">blog</span><span class="o">/</span><span class="n">public</span>
 </span></span><span class="line"><span class="cl"><span class="n">git</span> <span class="n">stash</span> <span class="o">-</span><span class="n">u</span>
 </span></span><span class="line"><span class="cl"><span class="n">git</span> <span class="n">pull</span> <span class="o">--</span><span class="n">rebase</span> <span class="n">origin</span> <span class="n">main</span>
