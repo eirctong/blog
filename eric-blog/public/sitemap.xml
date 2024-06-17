@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://erictonger.github.io/tags/blog/</loc>
     <lastmod>2024-06-16T14:20:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://erictonger.github.io/</loc>
     <lastmod>2024-06-16T14:20:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/new_file/</loc>
+    <loc>https://erictonger.github.io/post/new_file/</loc>
     <lastmod>2024-06-16T14:20:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://erictonger.github.io/post/</loc>
     <lastmod>2024-06-16T14:20:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://erictonger.github.io/tags/</loc>
     <lastmod>2024-06-16T14:20:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/test/</loc>
+    <loc>https://erictonger.github.io/tags/test/</loc>
     <lastmod>2024-06-16T14:20:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hide/chen/</loc>
+    <loc>https://erictonger.github.io/hide/chen/</loc>
     <lastmod>2024-06-16T13:56:35+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hide/</loc>
+    <loc>https://erictonger.github.io/hide/</loc>
     <lastmod>2024-06-16T13:56:35+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/hahlll/</loc>
+    <loc>https://erictonger.github.io/post/hahlll/</loc>
     <lastmod>2024-06-16T13:19:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/gitskill/</loc>
+    <loc>https://erictonger.github.io/post/gitskill/</loc>
     <lastmod>2024-06-16T03:45:30+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/blog_deployment/</loc>
+    <loc>https://erictonger.github.io/post/blog_deployment/</loc>
     <lastmod>2024-06-16T14:03:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/hahaha/</loc>
+    <loc>https://erictonger.github.io/post/hahaha/</loc>
     <lastmod>2024-06-16T02:24:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/certificate/</loc>
+    <loc>https://erictonger.github.io/tags/certificate/</loc>
     <lastmod>2024-06-16T14:20:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssl/</loc>
+    <loc>https://erictonger.github.io/tags/ssl/</loc>
     <lastmod>2024-06-16T14:20:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/ssl-certifie/</loc>
+    <loc>https://erictonger.github.io/post/ssl-certifie/</loc>
     <lastmod>2024-06-16T14:20:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/test/</loc>
+    <loc>https://erictonger.github.io/post/test/</loc>
     <lastmod>2024-06-16T02:16:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/network_tech/</loc>
+    <loc>https://erictonger.github.io/post/network_tech/</loc>
     <lastmod>2024-06-15T22:53:05+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://erictonger.github.io/categories/</loc>
   </url>
 </urlset>

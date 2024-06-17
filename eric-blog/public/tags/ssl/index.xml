@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssl on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/ssl/</link>
+    <link>https://erictonger.github.io/tags/ssl/</link>
     <description>Recent content in Ssl on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Jun 2024 14:20:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erictonger.github.io/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSL签发</title>
-      <link>http://localhost:1313/post/ssl-certifie/</link>
+      <link>https://erictonger.github.io/post/ssl-certifie/</link>
       <pubDate>Sat, 15 Jun 2024 23:24:07 +0800</pubDate>
-      <guid>http://localhost:1313/post/ssl-certifie/</guid>
+      <guid>https://erictonger.github.io/post/ssl-certifie/</guid>
       <description>ssl证书签发指南</description>
     </item>
   </channel>
