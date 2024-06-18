@@ -1,7 +1,7 @@
 +++
 title = 'Blog_Deployment'
 date = 2024-06-16T02:26:22+08:00
-draft = false
+draft = true
 +++
 GitHub Pages + Hugo 搭建个人博客
 

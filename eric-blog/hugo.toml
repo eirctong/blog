@@ -23,7 +23,7 @@ pygmentsUseClasses = true
   avatar = "/images/avatar.png"
   headerIcon = "/images/github-mark-white.png"
   location = "China"
-  userStatusEmoji = "😀"
+  userStatusEmoji = "😎"
   enableGitalk = true
 
 [params.gitalk]
